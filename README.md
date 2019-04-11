@@ -16,4 +16,4 @@ docker run --name bitcoin-node -d -v blockchain:/bitcoin/.bitcoin -p 8333:8333 <
 ## Stop
 
 ```
-docker exec <CONTAINER_NAME> ./bitcoin-cli stop
+docker exec bitcoin-node ./bitcoin-cli stop
