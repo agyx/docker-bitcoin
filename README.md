@@ -4,6 +4,7 @@
 
 ```
 docker build git@github.com:agyx/docker-bitcoin.git -t <TAG>
+docker build git@github.com:agyx/docker-bitcoin.git -t <TAG> --build-arg VERSION=0.17.1
 ```
 
 ## Run
