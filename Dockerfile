@@ -6,7 +6,7 @@ WORKDIR ${HOME}
 
 RUN apt-get update
 RUN apt-get -yyq install curl gpg
-RUN gpg --recv-keys 01EA5486DE18A882D4C2684590C8019E36C2E964
+RUN gpg --recv-keys --keyserver keyserver.ubuntu.com 01EA5486DE18A882D4C2684590C8019E36C2E964
 
 ARG VERSION=0.17.1
 
